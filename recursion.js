@@ -23,3 +23,27 @@ function facRec(num) {
  */
 
 console.log(facRec(5));
+
+function productOfArray(arr) {
+  if(arr.length === 0) return 1;
+
+  return arr[0] * productOfArray(arr.slice(1));
+}
+
+console.log(productOfArray([1,2,3,10]))
+
+function recursiveRange(n) {
+  if(n === 1) return 1;
+
+  return n + recursiveRange(n - 1);
+}
+
+console.log(recursiveRange(10))
+
+function fib(n) {
+  if(n <= 2) return 1;
+
+  return fib(n - 1) + fib(n - 2)
+}
+
+console.log(fib(7))
