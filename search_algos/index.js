@@ -9,9 +9,9 @@ function main() {
   console.log(ls.recursiveLinearSearch([2, 6, 12, 27, 55, 100], 55));
   console.log(ls.recursiveLinearSearch([2, 6, 12, 27, 55, 100], 56));
   console.log("=========Binary search=========");
-  console.log(bns.binarySearch([2, 6, 12, 27, 55, 100], 55));
+  console.log(bns.binarySearch([2, 5, 6, 9, 13, 15, 28, 30], 30));
   console.log(bns.binarySearch([2, 6, 12, 27, 55, 100], 56));
-  console.log(bns.binarySearchRecursive([2, 6, 12, 27, 55, 100], 55));
+  console.log(bns.binarySearch([2, 5, 6, 9, 13, 15, 28, 30], 30));
   console.log(bns.binarySearchRecursive([2, 6, 12, 27, 55, 100], 56));
 }
 
