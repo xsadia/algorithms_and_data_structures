@@ -11,7 +11,7 @@ function binarySearch(arr, val) {
     } else {
       right = mid - 1;
     }
-    mid = Math.floor((left + right) / 2);
+    //mid = Math.floor((left + right) / 2);
   }
 
   return -1;
