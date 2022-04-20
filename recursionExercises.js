@@ -169,7 +169,7 @@ function capitalizeFirst(arr) {
   return [x.charAt(0).toUpperCase() + x.slice(1)].concat(capitalizeFirst(xs));
 }
 
-// console.log(capitalizeFirst(['car','taco','banana'])); // ['Car','Taco','Banana']
+console.log(capitalizeFirst(['car','taco','banana'])); // ['Car','Taco','Banana']
 
 function nestedEvenSum(obj, sum = 0) {
   for(let key in obj) {

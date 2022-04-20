@@ -1,6 +1,7 @@
 const bbs = require("./bubble");
 const ss = require("./selection");
 const is = require("./insertion");
+const mg = require("./merge");
 
 function main() {
   console.log("==================Bubble Sort===================");
@@ -12,6 +13,8 @@ function main() {
   console.log("==================Selection Sort===================");
   console.log(is.insertionSort([5, 3, 4, 1, 2]));
   console.log(is.insertionSort([37, 45, 29, 8, 2]));
+  console.log("==================Merge===================");
+  console.log(mg.mergeSort([10, 24,76, 73, 72, 1, 9]));
 }
 
 main();
