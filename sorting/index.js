@@ -15,6 +15,7 @@ function main() {
   console.log(is.insertionSort([37, 45, 29, 8, 2]));
   console.log("==================Merge===================");
   console.log(mg.mergeSort([10, 24,76, 73, 72, 1, 9]));
+  console.log(mg.mergeSort([37, 45, 29, 8, 2]));
 }
 
 main();
